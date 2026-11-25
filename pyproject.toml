@@ -1,0 +1,9 @@
+[project]
+name = "agritech-consent-data-exchange"
+version = "0.1.0"
+description = "Consent-governed farm telemetry normalization and third-party data sharing gateway"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
